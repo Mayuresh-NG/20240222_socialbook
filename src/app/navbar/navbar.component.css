@@ -1,3 +1,8 @@
+.logo {
+  width: 160px;
+  margin-right: 45px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -23,8 +28,8 @@ nav {
   margin: 0 15px;
 }
 .nav-user-icon img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -94,30 +99,24 @@ nav {
   text-decoration: none;
   color: #626262;
 }
-#dark-btn {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  background: #ccc;
-  width: 45px;
-  border-radius: 15px;
-  padding: 10px 6px;
-  cursor: pointer;
-  display: flex;
-  transition: padding-left 0.5s, background 0.5s;
-}
-#dark.btn span {
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  border-radius: 60%;
-  display: inline-flex;
-}
-#dark-btn.dark-btn-on {
-  padding-left: 23px;
-  background: #0a0a0a;
+
+
+.online{
+  position: relative;
 }
 
+.online::after{
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #41db51;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
 @media (max-width: 900px) {
   nav {
     flex-wrap: wrap;

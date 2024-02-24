@@ -15,6 +15,7 @@
   </div>
 
   <p style="margin: 25px 0; color: #626262; font-weight: 500">Your Shortcuts</p>
+  
   <div *ngFor="let i of shortcuts" class="shortcut-link">
     <a href="#"><img src="{{ i.image_url }}" />{{ i.text }}</a>
   </div>
