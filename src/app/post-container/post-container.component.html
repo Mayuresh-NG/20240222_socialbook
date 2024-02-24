@@ -1,0 +1,36 @@
+<div *ngFor="let post of posts" class="post-container">
+  <div class="post-row">
+    <div class="user-profile">
+      <img [src]="post.imgSrc" />
+      <div>
+        <p>{{ post.userName }}</p>
+        <span>{{ post.timestamp }}</span>
+      </div>
+    </div>
+    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+  </div>
+  <p class="post-text" [innerHTML]="post.postText"></p>
+  <img [src]="post.postImgSrc" class="post-img" />
+  <div class="post-row">
+    <div class="activity-icons">
+      <div>
+        <img src="https://i.postimg.cc/pLKNXrMq/like-blue.png" />{{
+          post.likeCount
+        }}
+      </div>
+      <div>
+        <img src="https://i.postimg.cc/rmjMymWv/comments.png" />{{
+          post.commentCount
+        }}
+      </div>
+      <div>
+        <img src="https://i.postimg.cc/T2bBchpG/share.png" />{{
+          post.shareCount
+        }}
+      </div>
+    </div>
+    <div class="post-porfile-icon">
+      <img [src]="post.imgSrc" /><i class="fas fa-caret-down"></i>
+    </div>
+  </div>
+</div>
