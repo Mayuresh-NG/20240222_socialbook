@@ -1,3 +1,4 @@
+
 <div class="imp-links">
   <a href="#"
     ><img src="https://i.postimg.cc/RCj4MjnC/news.png" />Latest News</a
@@ -16,5 +17,5 @@
 <p style="margin: 25px 0; color: #626262; font-weight: 500">Your Shortcuts</p>
 
 <div *ngFor="let i of shortcuts" class="shortcut-link">
-  <a href="#"><img src="{{ i.image_url }}" />{{ i.text }}</a>
+  <a routerLink="/sh{{i.id}}" routerLinkActive="active" ariaCurrentWhenActive="page"><img src="{{ i.image_url }}" />{{ i.text }}</a>
 </div>
