@@ -29,7 +29,7 @@ export class StoryGalleryComponent {
     profile_url:
       'https://images.unsplash.com/photo-1683009427479-c7e36bbb7bca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2MXx8fGVufDB8fHx8fA%3D%3D',
     url: 'https://images.unsplash.com/photo-1708074017412-be6a9e38e4ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNjZ8fHxlbnwwfHx8fHw%3D',
-    name: 'ASHFORD MARX',
+    name: 'ASHFORD',
   };
 
   story5: { profile_url: string; url: string; name: string } = {

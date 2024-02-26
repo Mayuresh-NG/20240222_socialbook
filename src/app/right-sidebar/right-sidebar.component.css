@@ -1,15 +1,3 @@
-.right-sidebar {
-  flex-basis: 25%;
-  position: sticky;
-  top: 70px;
-  align-self: flex-start;
-  background: var(--bg-color);
-  padding: 20px;
-  border-radius: 4px;
-  color: #626262;
-  margin-left: 20px;
-}
-
 .sidebar-title {
   display: flex;
   align-items: center;
@@ -99,8 +87,4 @@
   margin-bottom: 20px;
   border-radius: 4px;
 }
-@media (max-width: 900px) {
-  .right-sidebar {
-    display: none;
-  }
-}
+
